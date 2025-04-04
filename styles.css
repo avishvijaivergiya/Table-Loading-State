@@ -71,4 +71,25 @@ body {
 /* Add box-sizing to ensure padding is included in width calculations */
 * {
   box-sizing: border-box;
+}
+
+.pagination-skeleton {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-start;
+    margin-top: 24px;
+    padding: 0;
+}
+
+.pagination-button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(58, 47, 31, 0.1);
+    border-radius: 4px;
+    background: white;
+    padding: 8px;
+    cursor: not-allowed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 } 
